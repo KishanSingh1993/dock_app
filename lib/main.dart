@@ -67,6 +67,7 @@ class _DockState<T extends Object> extends State<Dock<T>> {
   int? _draggingIndex;
 
   /// Temporarily stores the item being dragged.
+  ///
   T? _draggedItem;
 
   /// Index of the target position where the dragged item will go.
